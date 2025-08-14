@@ -1,0 +1,21 @@
+body,
+#main-wrapper,
+.main-content,
+#content,
+.page,
+.post {
+  background: linear-gradient(135deg, #3a8dde 0%, #7c3aed 100%) !important;
+}
+
+.post-tail-bottom .license-wrapper,
+.post-tail-bottom .post-license,
+.post-tail-bottom [class*="license"],
+.post-tail-bottom > div,
+.post-tail-bottom {
+  color: transparent !important;
+  font-size: 0 !important;
+  height: 0 !important;
+  line-height: 0 !important;
+  display: none !important;
+  visibility: hidden !important;
+}
